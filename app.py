@@ -25,6 +25,7 @@ from visualizations import (
 
 # ------------------ INITIALIZE DASH APP ------------------
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("🔮 Charcuterie Forecasting & Performance Dashboard",
