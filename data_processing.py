@@ -68,7 +68,7 @@ def compute_monthly_sales(df):
 
 # ------------------ INITIAL LOAD ------------------
 # Modify the path as needed
-DATA_FILEPATH = r"C:\Users\Kush\Downloads\Sales_Charcuterie.xlsx"
+DATA_FILEPATH = "Sales_Charcuterie.xlsx"
 df = load_and_clean_data(DATA_FILEPATH)
 monthly_sales = compute_monthly_sales(df)
 
